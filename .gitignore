@@ -1,0 +1,39 @@
+.env
+data/
+tools/
+backend/weppy-project-sync/
+frontend/app/_verify_reconstructed.jsx
+__pycache__/
+*.pyc
+node_modules/
+.next/
+nohup.out
+
+# Standardized Cross-Platform Ignores
+# IDE & System Bloat
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak
+*.swp
+*~
+# Environment & Secrets
+.env.local
+.env.*.local
+*.secret
+*.pem
+*.key
+# Node / Web / Nuxt / Next Build
+.npm/
+.yarn/
+dist/
+.output/
+.nuxt/
+.turbo/
+.wrangler/
+*.tsbuildinfo
